@@ -1,8 +1,11 @@
-import React from 'react'
-import Card from './Card'
-import './list.css'
+import React from 'react';
+import Card from './Card';
+import './list.css';
 
 function List(props){
+    console.log(props.header)
+    console.log(props.cards)
+
     return(
         <section className="List">
             <header className="List-header">
