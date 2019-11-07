@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> renders the UI as expected 1`] = `
+<section
+  className="List"
+>
+  <header
+    className="List-header"
+  >
+    <h2 />
+  </header>
+  <div
+    className="List-cards"
+  />
+</section>
+`;
+
+exports[`<List /> renders the UI as expected 2`] = `
+<section
+  className="List"
+>
+  <header
+    className="List-header"
+  >
+    <h2 />
+  </header>
+  <div
+    className="List-cards"
+  />
+</section>
+`;

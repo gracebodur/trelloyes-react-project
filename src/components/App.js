@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 import List from "./List";
 
 function App(props) {
@@ -10,11 +10,12 @@ function App(props) {
       </header>
       <div className="App-list">
         {props.store.lists.map(list => (
-        <List
-        key = {list.id}
-        header = {list.header}
-        cards={list.cardIds.map(id => props.store.allCards[id])}
-       />))}
+          <List
+            key={list.id}
+            header={list.header}
+            cards={list.cardIds.map(id => props.store.allCards[id])}
+          />
+        ))}
       </div>
     </main>
   );
