@@ -6,7 +6,7 @@
     "acorn": "^7.1.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "^3.4.0",
+    "react-scripts": "^3.4.3",
     "serialize-javascript": "^2.1.1"
   },
   "scripts": {

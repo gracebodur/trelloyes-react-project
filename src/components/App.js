@@ -22,7 +22,7 @@ class App extends Component {
       );
     }
 
-    console.log(this.state.store.STORE.lists[listId - 1]);
+    // console.log(this.state.store.STORE.lists[listId - 1]);
     // const newLists = omit(
     //   this.state.store.STORE.lists,
     //   this.state.store.STORE.lists[listId - 1].itemId
